@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+
+        footer {
+
+            background-color: black;
+
+            color:white;
+
+            font-size: 20px;
+
+            font-family: Arial;
+
+            padding: 20px;
+
+            height: 300px;
+
+        }
+
+         strong {
+        font-style: normal; /* Ensures strong text is not italic */}
+
+        .row-1 {
+
+            display: grid;
+
+            grid-template-columns: 3fr 3fr;
+
+        }
+
+        .left-panel {
+
+            display: grid;
+
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+
+        }
+
+        .right-panel {
+
+            display: grid;
+
+            grid-template-columns: 3fr 3fr;
+
+            border-left: 0.5px solid rgb(234, 233, 233);
+
+            height: 250px;
+
+            padding-left: 20px;
+
+        }
+
+        .row-2 {
+
+            padding: 20px;
+
+            color:White;  
+
+            display: flex;
+
+            justify-content: space-between;  
+
+            font-size: 16px;
+
+        }
+
+        .color-line1 {
+            color: grey;
+            font-family: Arial;
+            padding-bottom: 20px;
+            font-style: bold;
+            font-size: 14px;
+
+    }
+
+
+        .color-line2 {
+            color: grey;
+            font-family: Arial;
+            font-style: bold;
+            font-size: 14px;
+
+
+        }
+
+        .Line-one {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial;
+            font-style: bold;
+            font-size: 12px;
+    
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        .social-media-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size:20px;
+
+        }
+
+        aside{
+            padding-top: 35px;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <footer>
+
+        <div class="row-1">
+
+            <div class="left-panel">
+
+                <div class = "Line-one">
+                    <span class = "color-line1">ABOUT</span>
+                    <span>Contact US</span>
+                    <span>About US</span>
+                    <span>Careers</span>
+                    <span>Flipkart Stories</span>
+                    <span>Press</span>
+                    <span>Corporate Information</span>
+                </div>    
+
+                <div class = "Line-one">
+                    <span class = "color-line1">GROUP COMPANIES</span>
+                    <span>Myntra</span>
+                    <span>Cleartrip</span>
+                    <span>Shopsy</span>
+                </div>
+
+                <div class = "Line-one">
+                    <span class = "color-line1">HELP</span>
+                    <span>Payments</span>
+                    <span>Shipping</span>
+                    <span>Cancellation & Returns</span>
+                    <span>FAQ</span>
+                </div>
+
+                <div class = "Line-one">
+                    <span class = "color-line1">CONSUMER POLICY</span>
+                    <span>Cancellations & Returns</span>
+                    <span>Terms of Use</span>
+                    <span>Security</span>
+                    <span>Privacy</span>
+                    <span>Sitemap</span>
+                    <span>Grievance Redressal</span>
+                    <span>EPR Compliance</span>
+                    <span>FSSAI Food Safety Connect App</span>
+                </div>
+
+            </div>
+
+            <div class="right-panel">
+
+                <div class = "Line-one">
+                    <span class = "color-line1">Mail Us:</span>
+                    <span>
+                        <address>
+                            <strong>Flipkart Internet Private Limited,</strong><br>
+                            Buildings Alyssa, Begonia &<br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India<br>
+                          </address>
+                    </span>
+
+                    <aside>
+                    
+                    <div>
+                         <span class = "color-line2">Social:</span><br></div>
+                    
+                    <div>
+                        <span class="social-media-icons">
+                        <span class="bi bi-facebook"></span>
+                        <span class="bi bi-x"></span>
+                        <span class="bi bi-instagram"></span>
+                        <span class="bi bi-youtube"></span>
+                    </span>
+
+                    </div>
+
+                    </aside>
+                    
+                </div>
+
+
+                <div class = "Line-one">  
+                    <span class="color-line1">Registered Office Address:</span>
+                    <span>
+                        <address>
+                            <strong>Flipkart Internet Private Limited,</strong>
+                            Buildings Alyssa, Begonia &<br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India<br>
+                            CIN : U51109KA2012PTC066107<br>
+                            Telephone: 1800 202 9898
+                    </span>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row-2">
+
+            <span class="bi bi-person-fill"> Become a seller</span>
+
+            <span class="bi bi-activity"> Advertise</span>
+
+            <span class="bi bi-gift"> Gift Cards</span>
+
+            <span class="bi bi-question-circle"> Help Center</span>
+
+            <span>
+
+                &copy; copyright 2026
+
+            </span>
+
+            <span>
+
+                images..
+
+            </span>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
