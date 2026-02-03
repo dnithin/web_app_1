@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        dialog {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(10, 10, 10, 0.2);
+            width: 300px;
+        }
+
+        .dialog-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            background-color: #f1f1f1;
+            border-bottom: 3px solid #ccc;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>     
+</head>
+<body>
+    <dialog open>
+        <div class = "dialog-header">
+            <span>Chat with Help Desk</span>
+            <span class = "bi bi-x-square-fill"></span>
+            <div class = 'dialog-body'></div>
+        </div>
+
+    </dialog>
+    
+</body>
+</html>
