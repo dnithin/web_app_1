@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>News</title>
+
+    <style>
+
+        .news {
+
+            border: 1px solid gray;
+
+            padding: 20px;
+
+            width: 800px;
+
+            box-shadow: 10px 10px 10px black;
+
+        }
+
+        .title {
+
+            font-size: 60px;
+
+            word-spacing: 10px;
+
+        }
+
+        .details {
+
+            columns: 4;
+
+            text-align: justify;
+
+            font-size: 12px;
+
+            margin-top: 10px;
+
+            column-gap: 20px;
+
+            column-rule: 1px dotted gray;
+
+        }
+
+        h2{ 
+
+            background-color: black;
+
+            color:white;
+
+            padding: 10px;
+
+        }
+
+        .author {
+
+            font-weight: bold;
+
+            font-size: 14px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="news">
+
+        <div>
+
+            <span class="title"> &#8377;17K cr push for urban growth </span>
+
+        </div>
+
+        <div class="details">
+
+            <div class="author">
+
+                OUR CORRESPONDENT,<br>
+
+                Hyderabad City
+
+            </div>
+
+            <p>
+
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur reiciendis eius corporis atque fuga est deserunt esse rerum consequuntur temporibus, odio et totam ducimus assumenda dicta iure reprehenderit, eligendi ad?
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus libero facilis, cumque porro itaque dicta tenetur distinctio animi expedita aperiam, neque architecto eligendi placeat ipsa temporibus ratione consequatur quam?
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, eveniet cumque repellat cum est laudantium ratione vel veniam, vitae provident, qui amet corrupti suscipit ipsum recusandae illum eos ea sunt.
+
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+            </p>
+
+            <h2>Updates</h2>
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+
+    
+
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+
+    
+
+            </p>
+
+            
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+
+    
+
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+
+    
+
+            </p>
+
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati corporis earum quae? Quia similique quos quas ut mollitia dignissimos, atque a. Porro est maxime accusantium doloremque neque voluptas cum.
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quod perspiciatis nam saepe deserunt atque dolor aperiam ad praesentium consequatur modi ipsam autem, pariatur, ullam ipsa omnis. Consequuntur, eligendi obcaecati?
+
+    
+
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
