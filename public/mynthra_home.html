@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Myntra</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+
+        header {
+
+            padding: 20px;
+
+            background-color: #f8f5f5;
+
+            font-size: 20px;
+
+            font-family: Arial;
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+        }
+
+        .brand-logo {
+
+            font-family: Brush Script MT;
+
+            font-size: 60px;
+
+            font-weight: bold;
+
+            color: #a21f1f;
+
+        }
+
+        .short-cuts {
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            width: 250px;
+
+            text-align: center;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            width: 700px;
+
+        }
+
+        .search-bar{
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-between;
+
+            width: 350px;
+
+            font-size: 18px;
+
+            background-color: #d9d8d8;
+
+            padding: 15px;
+
+            border-radius: 5px;
+
+        }
+
+        .shortcut-title {
+
+            font-size: 15px;
+
+        }
+
+        main {
+
+            padding-top: 100px;
+
+            padding-left: 50px;
+
+            display: flex;
+
+            flex-direction: row;
+
+        }
+
+        .card {
+
+            border:1px solid gray;
+
+            width: 200px;
+
+            height: 300px;
+
+            margin: 20px;
+
+            padding: 10px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: end;
+
+            align-items: center;
+
+        }
+
+        .women-fashion {
+
+            background-image: url('./images/women-fashion.jpg');
+
+            background-size: cover;
+
+        }
+
+        .men-fashion {
+
+            background-image: url('./images/men-fashion.png');
+
+            background-size: cover;
+
+        }
+
+        .card-footer {
+
+            background-color: #a21f1f;
+
+            color:white;
+
+            font-family: Arial;
+
+            width: 180px;
+
+            padding: 10px;
+
+            text-align: center;
+
+        }
+
+        .offer {
+
+            font-size: 30px;
+
+            font-weight: bold;
+
+            padding-bottom: 5px;
+
+            padding-top: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+  <header>
+
+      <div>
+
+        <nav>
+
+            <span class="brand-logo"> M </span>
+
+            <span> MEN </span>
+
+            <span> WOMEN </span>
+
+            <span> KIDS </span>
+
+            <span> HOME </span>
+
+            <span> BEAUTY </span>
+
+            <span> GENZ</span>
+
+            <span> STUDIO </span>
+
+        </nav>
+
+      </div>
+
+      <div>
+
+        <div class="search-bar">
+
+            <span class="bi bi-search"></span>
+
+            <span> Search for products, brands and more </span>
+
+        </div>
+
+      </div>
+
+      <div>
+
+         <div class="short-cuts">
+
+             <div>
+
+             <span class="bi bi-person"></span> <br>
+
+             <span class="shortcut-title">Profile</span>
+
+          </div>
+
+          <div>
+
+             <span class="bi bi-heart"></span> <br>
+
+             <span class="shortcut-title">Whishlist</span>
+
+          </div>
+
+          <div>
+
+             <span class="bi bi-bag"></span> <br>
+
+             <span class="shortcut-title">Bag</span>
+
+          </div>
+
+         </div>
+
+      </div>
+
+  </header>
+
+  <section>
+
+     <main>
+
+        <div class="card women-fashion">
+
+            <div class="card-footer">
+
+                <div class="card-title">Ethnic Wear</div>
+
+                <div class="offer"> 50-80% OFF </div>
+
+                <div class="card-title">Shop Now</div>
+
+            </div>
+
+        </div>
+
+        <div class="card men-fashion">
+
+            <div class="card-footer">
+
+                <div class="card-title">Ethnic Wear</div>
+
+                <div class="offer"> 50-80% OFF </div>
+
+                <div class="card-title">Shop Now</div>
+
+            </div>
+
+        </div>
+
+     </main>
+
+  </section>
+
+</body>
+
+</html>
+
